@@ -2,99 +2,21 @@
     <foreignObject width="100%" height="100%">
         <div xmlns="http://www.w3.org/1999/xhtml">
             <style>
-            <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>My GitHub Repositories</title>
-  <style>
-    /* Global Styles */
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background: #f4f4f4;
-    }
+            h1 {
+                color: red;
+                animation: mymove 2s infinite;
+            }
 
-    /* Sidebar Container */
-    #sidebar {
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 250px;
-      height: 100%;
-      background-color: #2c3e50;
-      color: #ecf0f1;
-      padding: 20px;
-      overflow-y: auto;
-    }
-
-    /* Sidebar Header */
-    #sidebar h2 {
-      font-size: 24px;
-      text-align: center;
-      margin-bottom: 20px;
-      padding-bottom: 10px;
-      border-bottom: 1px solid #34495e;
-    }
-
-    /* Repository List */
-    #sidebar ul {
-      list-style: none;
-      padding: 0;
-    }
-
-    #sidebar ul li {
-      margin: 10px 0;
-    }
-
-    #sidebar ul li a {
-      color: #ecf0f1;
-      text-decoration: none;
-      font-size: 18px;
-      transition: color 0.3s ease;
-    }
-
-    #sidebar ul li a:hover {
-      color: #3498db;
-    }
-
-    /* Main Content */
-    #main-content {
-      margin-left: 270px; /* account for side nav width + some spacing */
-      padding: 30px;
-    }
-
-    /* Responsive adjustments */
-    @media (max-width: 768px) {
-      #sidebar {
-        width: 200px;
-      }
-      #main-content {
-        margin-left: 220px;
-      }
-    }
-  </style>
-</head>
-<body>
-  <nav id="sidebar">
-    <h2>My GitHub Repos</h2>
-    <ul>
-      <li><a href="https://github.com/yourusername/repo1" target="_blank">Repository 1</a></li>
-      <li><a href="https://github.com/yourusername/repo2" target="_blank">Repository 2</a></li>
-      <li><a href="https://github.com/yourusername/repo3" target="_blank">Repository 3</a></li>
-      <li><a href="https://github.com/yourusername/repo4" target="_blank">Repository 4</a></li>
-      <!-- Add more repository links as needed -->
-    </ul>
-  </nav>
-  
-  <div id="main-content">
-    <h1>Welcome to My GitHub Page</h1>
-    <p>Click on any repository link in the left sidebar to view details on GitHub.</p>
-  </div>
-</body>
-</html>
-
+            @keyframes mymove {
+                from {
+                    color: red;
+                }
+                to {
+                    color: yellow;
+                }
+            }
+            </style>
+            <h1>HELLO WORLD!</h1>
         </div>
     </foreignObject>
 </svg>
