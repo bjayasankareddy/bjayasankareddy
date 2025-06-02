@@ -3,5 +3,4 @@
 Welcome to my README!
 
 <div align="center">
-    ![alt sample](https://github.com/bjayasankareddy/bjayasankareddy/blob/main/example.svg)
-</div>
+    <img src='example.svg' width='100%' height='100%'>
