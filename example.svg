@@ -1,22 +1,57 @@
-<svg fill="none" viewBox="0 0 400 400" width="400" height="400" xmlns="http://www.w3.org/2000/svg">
-    <foreignObject width="100%" height="100%">
-        <div xmlns="http://www.w3.org/1999/xhtml">
-            <style>
-            h1 {
-                color: red;
-                animation: mymove 2s infinite;
-            }
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg 
+  xmlns="http://www.w3.org/2000/svg" 
+  version="1.1"
+  width="600" 
+  height="400">
+  
+  <!-- Define Styles -->
+  <style type="text/css">
+    text { font-family: Arial, sans-serif; }
+    text:hover { fill: #3498db; }
+  </style>
+  
+  <!-- Inline Script for Dynamic Behavior -->
+  <script type="application/ecmascript"><![CDATA[
+    function showRepoInfo(repoName, repoURL) {
+      var infoElem = document.getElementById('repoInfo');
+      // Update the text content with repository details.
+      infoElem.textContent = "Repository: " + repoName + " — " + repoURL;
+    }
+  ]]></script>
+  
+  <!-- Background -->
+  <rect width="600" height="400" fill="#f4f4f4" />
 
-            @keyframes mymove {
-                from {
-                    color: red;
-                }
-                to {
-                    color: yellow;
-                }
-            }
-            </style>
-            <h1>HELLO WORLD!</h1>
-        </div>
-    </foreignObject>
+  <!-- Left Pane: GitHub Repository List -->
+  <g id="repoList" transform="translate(20,20)">
+    <!-- Panel Background -->
+    <rect x="0" y="0" width="180" height="360" fill="#2c3e50" rx="8" ry="8" />
+    <!-- Header -->
+    <text x="10" y="30" fill="#ecf0f1" font-size="18" font-weight="bold">My GitHub Repos</text>
+    <!-- Clickable Repository Entries -->
+    <a onclick="showRepoInfo('Repo 1', 'https://github.com/yourusername/repo1')">
+      <text x="10" y="60" fill="#ecf0f1" font-size="16" style="cursor:pointer;">Repo 1</text>
+    </a>
+    <a onclick="showRepoInfo('Repo 2', 'https://github.com/yourusername/repo2')">
+      <text x="10" y="85" fill="#ecf0f1" font-size="16" style="cursor:pointer;">Repo 2</text>
+    </a>
+    <a onclick="showRepoInfo('Repo 3', 'https://github.com/yourusername/repo3')">
+      <text x="10" y="110" fill="#ecf0f1" font-size="16" style="cursor:pointer;">Repo 3</text>
+    </a>
+    <a onclick="showRepoInfo('Repo 4', 'https://github.com/yourusername/repo4')">
+      <text x="10" y="135" fill="#ecf0f1" font-size="16" style="cursor:pointer;">Repo 4</text>
+    </a>
+    <!-- Add more repository items as needed -->
+  </g>
+  
+  <!-- Right Pane: Display Area for Repository Details -->
+  <g id="displayArea" transform="translate(220,20)">
+    <rect x="0" y="0" width="360" height="360" fill="#ffffff" stroke="#ccc" stroke-width="2" rx="8" ry="8" />
+    <text id="repoInfo" x="10" y="50" fill="#333333" font-size="16">
+      Click a repo to view details
+    </text>
+  </g>
 </svg>
