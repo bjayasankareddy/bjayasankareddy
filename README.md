@@ -61,8 +61,22 @@ Building a game engine from scratch requires a deep understanding of the softwar
 - 💻 **Top Languages:** C#, Python, JavaScript
 ---
 
-## 📫 Let's Connect!
-- **LinkedIn:** [Insert your LinkedIn Link here]
-- **Portfolio:** [Insert your Portfolio Link here]
+---
 
-"Mastering the engine is mastering the world of the game."
+## 📬 Let's Connect!
+
+I am always open to discussing **Game Engine architecture**, **Quantum Computing**, or **Backend Scalability**. Feel free to reach out through any of the platforms below:
+
+<p align="left">
+  <a href="www.linkedin.com/in/basireddy-jaya-sankar-reddy" target="blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  <a href="mailto: jayasankarbasireddy@gmail.com" target="blank">
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  </a>
+  <a href="https://twitter.com/YOUR_TWITTER_USERNAME" target="blank">
+    <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter" />
+  </a>
+</p>
+
+> "Mastering the engine is mastering the world of the game."— Basireddy Jaya Sankar Reddy
