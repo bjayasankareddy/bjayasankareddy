@@ -56,7 +56,9 @@ Building a game engine from scratch requires a deep understanding of the softwar
 * **Memory Management:** Optimizing the garbage collector in C# to prevent "stutter" in high-performance loops, focusing on object pooling and minimizing heap allocations.
 
 ---
-
+### 📊 GitHub Activity
+- 🏆 **Total Contributions:** [Check on Profile](https://github.com/bjayasankareddy)
+- 💻 **Top Languages:** C#, Python, JavaScript
 ---
 
 ## 📫 Let's Connect!
